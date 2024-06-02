@@ -1,0 +1,13 @@
+@import "./tamplate";
+@import "./header";
+@import "./main";
+@import "./footer";
+body {
+  background-color: #030303;
+  max-width: 1440px;
+  margin: auto;
+}
+.container {
+  max-width: 1268px;
+  margin: auto;
+}

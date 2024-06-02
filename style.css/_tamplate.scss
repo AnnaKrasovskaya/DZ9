@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nhympha Trial";
+  src: url("/fonts/nymphatrial-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin nympha($fontsize, $lineheight) {
+  font-family: "Nhympha Trial";
+  font-size: $fontsize;
+  line-height: $lineheight;
+}
+@mixin sffont($fontsize, $lineheight) {
+  font-family: "SF Pro Display";
+  font-size: $fontsize;
+  line-height: $lineheight;
+}
+$colorfonts: #f2f2f2;
+$colortitle: white;
+$colorinfo: #d6d0ce;

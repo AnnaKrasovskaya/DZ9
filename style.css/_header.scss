@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    padding: 54px 13px 235px 13px;
+    text-decoration: none;
+    @include sffont(18px, 22px);
+    font-weight: 500;
+    color: $colorfonts;
+    text-transform: uppercase;
+  }
+}
