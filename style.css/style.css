@@ -99,7 +99,10 @@ main .secondFoto .foto img {
 }
 main .bgText {
   position: relative;
-  margin-bottom: 750px;
+  padding-top: 108px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 200px;
 }
 main .bgText .projectTitle {
   font-family: "Nhympha Trial";
@@ -108,13 +111,15 @@ main .bgText .projectTitle {
   color: white;
   text-align: center;
   color: #8d8d8d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 main .bgText .thirdFoto {
   width: 1029px;
   height: 707px;
-  position: absolute;
-  right: 0;
-  top: 100px;
 }
 main .bgText .thirdFoto img {
   width: 100%;
